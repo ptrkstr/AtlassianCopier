@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "Atlassian Copier",
+  "version": "1.0.0",
+  "description": "Browser add on which adds copy buttons to Jira (server) and Bitbucket (server) that allow copying ticket/pull request information.",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/browse/*-*"],
+      "js": ["scripts/jira.js"]
+    },
+    {
+      "matches": ["*://*/projects/*/repos/*/pull-requests/*"],
+      "js": ["scripts/bitbucket.js"]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{0899135d-d283-465c-9fe1-c91826d1d075}"
+    }
+  }
+
+}

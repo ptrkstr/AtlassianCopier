@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Atlassian Copier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser add on which adds copy buttons to Jira (server) and Bitbucket (server) that allow copying ticket/pull request information.",
   "icons": {
     "48": "icons/icon-48.png",

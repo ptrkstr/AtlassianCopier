@@ -37,8 +37,8 @@ const content = `
 </a>
 `
 
-const location = document.getElementsByClassName("pull-request-more-actions")[0];
-location.insertAdjacentHTML('beforebegin', content);
+const atlassian_copier_location = document.getElementsByClassName("pull-request-more-actions")[0];
+atlassian_copier_location.insertAdjacentHTML('beforebegin', content);
 
 document.onkeyup = function(e) {
 	if (e.ctrlKey && e.code == 'KeyC') {

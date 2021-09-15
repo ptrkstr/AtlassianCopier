@@ -31,8 +31,8 @@ const copy = `
 </div>
 `
 
-const location = document.getElementById("opsbar-edit-issue_container");
-location.insertAdjacentHTML('beforebegin', copy);
+const atlassian_copier_location = document.getElementById("opsbar-edit-issue_container");
+atlassian_copier_location.insertAdjacentHTML('beforebegin', copy);
 
 document.onkeyup = function(e) {
 	if (e.ctrlKey && e.code == 'KeyC') {

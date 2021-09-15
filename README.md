@@ -39,9 +39,9 @@
 
 ## Installation
 
-### Firefox
+[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/atlassian-copier/)
 
-### Chrome
+Chrome
 
 ## Development
 

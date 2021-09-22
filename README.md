@@ -41,7 +41,7 @@
 
 [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/atlassian-copier/)
 
-Chrome
+[Chrome](https://chrome.google.com/webstore/detail/atlassian-copier/monmomcmehlbmhppoemegjjkfdliebao)
 
 ## Development
 

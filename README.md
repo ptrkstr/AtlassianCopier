@@ -43,7 +43,7 @@
 
 [Chrome](https://chrome.google.com/webstore/detail/atlassian-copier/monmomcmehlbmhppoemegjjkfdliebao)
 
-## Development
+## Development (using Firefox)
 
 1. Install [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/)
 2. Clone the repo

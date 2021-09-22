@@ -1,12 +1,13 @@
 <div align="center">
   <img src="Assets/logo.svg" height=250pt/>
-  <h1>
+  <h1 style="border-bottom: none">
     Atlassian Copier
   </h1>
   <p>
     Browser add on which adds copy buttons to Jira (server) and Bitbucket (server) that allow copying ticket/pull request information.
   </p>
 </div>
+
 
 
 ## Features
